@@ -6,6 +6,11 @@
   width: 100%;
 }
 
-.container {
+.input-container {
   width: 100%;
+  max-width: 400px;
+}
+
+.selected-container {
+  padding-top: 16px;
 }

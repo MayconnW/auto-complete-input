@@ -13,10 +13,10 @@ export default function Home() {
 
   return (
     <div className={styles.main}>
-      <div className={styles.container}>
+      <div className={styles['input-container']}>
         <AutoComplete fetch={getMatches} onSelectCallback={onSelectItem}/>
       </div>
-      <div>
+      <div className={styles['selected-container']}>
         {itemSelected && <p>Selected Item: {itemSelected}</p>}
       </div>
     </div>
