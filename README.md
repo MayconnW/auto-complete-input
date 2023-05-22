@@ -23,6 +23,7 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 This project was deployed on Vercel, you can access it [here](https://auto-complete-input.vercel.app/)
 
 ## Gif demo
+![](https://github.com/MayconnW/auto-complete-input/blob/main/demo.gif)
 
 ## Considerations
  - The component is on "app/components/auto-complete" path
