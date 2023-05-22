@@ -57,6 +57,7 @@ export function AutoComplete({fetch, onSelectCallback}: Props) {
 
   function handleClear() {
     setSearchTerm('')
+    onSelectCallback?.('')
     if (inputRef?.current) {
       inputRef.current.value = ''
     }
